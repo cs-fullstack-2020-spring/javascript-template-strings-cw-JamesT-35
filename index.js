@@ -12,13 +12,14 @@
 //console.log(`Congratulations ${constestant} !!, your score is ${score}.`)
 
 
-let HomeTeam = prompt("What is your Home team?")
-let Score = prompt(`How many points did the ${HomeTeam} score?`)
+let HomeTeam = prompt("What is your Home team?");
+let VisitingTeam = prompt("What is your Visiting team?");
 
-let VisitingTeam = prompt("What is your Visiting team?")
-let Score2 = prompt(`How many points did the ${VisitingTeam} score?`)
+let Score = prompt(`How many points did the ${HomeTeam} score?`);
+let Score2 = prompt(`How many points did the ${VisitingTeam} score?`);
 
-if (Score < Score2) 
+
+if (Score > Score2) 
 {
 console.log( alert(
     `Looks like the ${HomeTeam} have defeated the ${VisitingTeam}! 

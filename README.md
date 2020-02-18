@@ -47,7 +47,7 @@ Combine multiple development concepts to create a basketball scoring program tha
 - Prompt the user to enter the score for the visiting team *(include the team name when prompting the user)*
 `How many points did the GS Warriors score? (Visting team score)`
 
-In your program determine which team won the game with the highest score and display the results in an alert box.
+In your program determine which team won the game with the highest score and display the results in an alert box.   
 
 Expected Output:
 ```
