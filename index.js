@@ -12,14 +12,16 @@
 //console.log(`Congratulations ${constestant} !!, your score is ${score}.`)
 
 
+// Get the Home and Visting Team from the user
 let HomeTeam = prompt("What is your Home team?");
 let VisitingTeam = prompt("What is your Visiting team?");
 
+// Get the Score from the user 
 let Score = prompt(`How many points did the ${HomeTeam} score?`);
 let Score2 = prompt(`How many points did the ${VisitingTeam} score?`);
 
-
-if (Score > Score2) 
+// Have the team that won appear 
+if (Score > Score2 && Score2 > Score) 
 {
 console.log( alert(
     `Looks like the ${HomeTeam} have defeated the ${VisitingTeam}! 
@@ -38,3 +40,13 @@ else if (Score == Score2)
     Visitor/${VisitingTeam}: ${Score2} ` ) )
 
 }
+else 
+{
+    alert(
+        `Looks like the ${VisitingTeam} have defeated the ${HomeTeam}! 
+           
+        FINAL SCORE:
+        Home/ ${HomeTeam}: ${Score}   
+        Visitor/${VisitingTeam}: ${Score2} `) 
+  
+    }
