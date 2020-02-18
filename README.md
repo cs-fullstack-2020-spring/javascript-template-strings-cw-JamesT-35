@@ -27,7 +27,7 @@ My address is Memphis, TN.
 
 Create a new template string 
 
-```
+``` 
 var contestant = "1_M_l337!";
 var score = "9001";
 ```
