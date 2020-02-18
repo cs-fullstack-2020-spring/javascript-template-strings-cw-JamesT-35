@@ -9,7 +9,7 @@
 // let constestant = "1_M_l337!"
 // let score = "9001"
 
-//console.log(`Congratulations ${constestant} !!, your score is ${score}.`)
+// console.log(`Congratulations ${constestant} !!, your score is ${score}.`)
 
 
 // Get the Home and Visting Team from the user
@@ -21,6 +21,7 @@ let Score = prompt(`How many points did the ${HomeTeam} score?`);
 let Score2 = prompt(`How many points did the ${VisitingTeam} score?`);
 
 // Have the team that won appear 
+// !! : this is an impossible condition
 if (Score > Score2 && Score2 > Score) 
 {
 console.log( alert(
@@ -40,6 +41,7 @@ else if (Score == Score2)
     Visitor/${VisitingTeam}: ${Score2} ` ) )
 
 }
+//  !! : this runs if team A wins or if team B wins bc your first condition is never met
 else 
 {
     alert(
